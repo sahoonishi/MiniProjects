@@ -1,0 +1,36 @@
+body{
+  background-image: linear-gradient(cyan, rgb(1, 6, 6));
+}
+.main_div{
+  border:2px solid transparent;
+  width:100%;
+  background-color: #87bfe2;
+  height: 100vh;
+  margin:0px auto;
+  border-radius: 15px;
+  box-shadow: 9px 2px 22px 2px;
+  text-align: center;
+}
+.center_div input ,button{
+  font-size: 23px;
+  border:2px solid transparent;
+  border-radius: 9px;
+  text-align: center;
+  
+}
+
+button:hover{
+  background-color: #766f6f;
+}
+/* @media (max-width: 768px){
+  .center_div{
+    width: 55%;
+  }
+} */
+ .list{
+  text-align:start;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .delete{
+  text-align: right;
+ }
